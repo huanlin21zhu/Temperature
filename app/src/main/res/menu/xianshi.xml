@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    android:icon="@mipmap/settings"
+    app:showAsAction="ifRoom"
+    <item
+        android:id="@+id/Drate"
+        android:title="人民币:美元" />
+    <item
+        android:id="@+id/Erate"
+        android:title="人民币:欧元" />
+    <item
+        android:id="@+id/Wrate"
+        android:title="人民币:韩元" />
+</menu>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Score">
+
+    <TextView
+        android:id="@+id/sco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="0"
+        android:textSize="120sp"
+        android:textColor="#8B008B" />
+
+    <Button
+        android:id="@+id/sc3"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:background="#B22222"
+        android:textSize="20sp"
+        android:text="+3  score" />
+
+    <Button
+        android:id="@+id/sc2"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:background="#B22222"
+        android:textSize="20sp"
+        android:text="+2  score" />
+
+    <Button
+    android:id="@+id/sc1"
+    android:layout_width="300dp"
+    android:layout_height="30dp"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="300dp"
+    android:background="#B22222"
+    android:textSize="20sp"
+    android:text="+1  score" />
+
+    <Button
+        android:id="@+id/clean"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:background="#B22222"
+        android:textSize="20sp"
+        android:text="refresh score" />
+
+</RelativeLayout>

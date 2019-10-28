@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GaiActivity">
+
+    <EditText
+        android:id="@+id/DollarRate2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="input DollarRate"
+        android:textSize="30sp"/>
+
+    <EditText
+        android:id="@+id/EuroRate2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="input euroRate"
+        android:textSize="30sp"/>
+
+    <EditText
+        android:id="@+id/WonRate2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="input wonRate"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/hint2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="8dp"
+        android:gravity="center"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btn_Save2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/Select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Current Rate" />
+
+    <Button
+        android:id="@+id/chakan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Current Rate" />
+
+    <Button
+        android:id="@+id/liulan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Particular Rate" />
+
+
+</LinearLayout>
